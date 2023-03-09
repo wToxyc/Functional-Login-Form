@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/login.css">
+    <link rel="shortcut icon" href="#">
+    <title>Login</title>
+</head>
+
+<body>
+
+    <div>
+        <h1>Login</h1>
+        <form action="/users/login" method="post">
+            <input class="text-field" type="email" name="email" id="email" placeholder="E-mail" required>
+            <input class="text-field" type="password" name="password" id="password" placeholder="Password" required>
+            <input type="submit" id="login" value="Login">
+            <label>Not a member yet?</label>
+            <a href="/register.html">Register</a>
+        </form>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,11 @@
+#register {
+    cursor: pointer;
+    background-color: #303030;
+    padding: 10px 15px;
+    color: white;
+}
+
+#register:hover {
+    color: black;
+    background-color: silver;
+}
